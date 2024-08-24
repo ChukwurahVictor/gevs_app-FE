@@ -1,0 +1,16 @@
+/* .main {
+    max-width: "64rem";
+} */
+
+/* .banner {
+    max-width: "64rem";
+} */
+
+.features {
+    background-color: rgba(156, 13, 56, 0.10);
+}
+
+.steps {
+    background-color: rgba(156, 13, 56, 0.10);
+    margin-top: 33px;
+}

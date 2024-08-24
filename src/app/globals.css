@@ -1,0 +1,45 @@
+.main {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background: #F6F7F9; */
+}
+
+/* Table Styling */
+.rdt_TableRow {
+  border: none !important;
+  margin: 0.5rem 0;
+}
+
+.rdt_TableBody > * {
+  font-size: 1rem !important;
+}
+
+.rdt_TableHeadRow {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #9c0d38;
+
+  border: none !important;
+}
+
+.rdt_TableBody {
+  min-height: 15rem;
+}
+
+:root {
+  --blue: rgb(0, 21, 40);
+  --button-color: rgba(0, 31, 80, 0.751);
+}
+
+@media (max-width: 576px) {
+  .ant-picker-panels {
+    flex-direction: column;
+  }
+}
+
+.ant-menu-item-selected {
+  background-color: #9c0d3840 !important;
+  color: #9c0d38 !important;
+  border-radius: 0 !important;
+}
